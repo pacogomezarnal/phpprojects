@@ -11,7 +11,7 @@
 			echo $frase;
 			echo $frase;
 			//Este es un ejemplo con comillas dobles
-			$numero=5;
+			$numero=15;
 			$frase2="<br>"."El valor de la variable numero es $numero";
 
 			echo $frase2;
