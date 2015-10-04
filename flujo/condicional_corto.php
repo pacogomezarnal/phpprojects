@@ -20,7 +20,7 @@
 	<body>
 		
 		<?php
-		//Generamos numero aleatorio
+		//Codigo sobre condicionales
 		$num_aleatorio=rand(0,10);
 		?>
 		<div class="<?=($num_aleatorio>5?'OK':'KO')?>">El numero ha sido <?=$num_aleatorio?></div>
