@@ -14,7 +14,7 @@
 			for ($i = 0; $i < count($array_simple); $i++) {
 				echo "El valor de la posicion $i es ".$array_simple[$i]."<br>";
 			}
-
+			
 		?>
 	</body>
 </html>

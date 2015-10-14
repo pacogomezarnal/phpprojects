@@ -7,16 +7,24 @@
 		<?php
 			//Un ejemplo mas complejo es mediante la definicion de claves
 			$array_claves=array(
-				"valencia"=>"Valencia",
-				"alicante"=>"Alicante",
-				"castellon"=>"Castellon",
-				"barcelona"=>"Barcelona",
-				"mdr"=>"Madrid"
+				"valencia"=>array(
+					"v"=>"Valencia",
+					"c"=>"Castellon",
+					"a"=>"Alicante"),
+				"murcia"=>array(
+					"m"=>"Murcia")
 				);
-
-			foreach ($array_claves as $valor) {
-    			echo "Valor: $valor<br />\n";
+				
+			foreach ($array_claves as $key=>$valor) {
+					echo "<div>";
+					echo "Comunidad: ".$key;
+				foreach ($valor as $k=>$v) {
+					echo "Provincia: ".$v;
+    				echo "</br>";
+					echo "</div>";
 			}
+			}
+
 		?>
 	</body>
 </html>
