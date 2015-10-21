@@ -41,7 +41,7 @@
 	</head>
 	<body>
 		<div id="spacing">
-		  <h1 class="spacing">CODE 02</h1>
+		  <h1 class="spacing">CODE 03</h1>
 		</div>
 		<?php
 			//COMPROBAMOS PARA EL VALOR 0. DEBERIAMOS OBTENER UN 0
