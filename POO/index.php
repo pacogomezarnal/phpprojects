@@ -1,5 +1,6 @@
 <?php
 	include('Jugador.php');
+	include('Carta.php');
 ?>
 <html>
 	<head>
@@ -14,8 +15,12 @@
 			$jugador1->setNombre("Paco");
 			$jugador2->setNombre("Pepe");
 
-			$jugador1->mostrarNombre();
-			$jugador2->mostrarNombre();
+			echo $jugador1->getNombre();
+			echo $jugador2->getNombre();
+			
+			//Vamos a obtener los palos
+			echo Carta::TREBOL;
+			echo Carta::PICA;
 		?>
 	</body>
 </html>
